@@ -1,3 +1,4 @@
+/* Default styles */
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,17 @@ body {
 
 .content div{
     width: 50%;
+}
+
+/* Mobile version style */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content div {
+        width: 100%;
+    }
 }
 
 .footer {

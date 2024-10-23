@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 -2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 20px 20px;
 }
 .chat__messages {
     background-color: rgb(0, 0, 0);
@@ -39,6 +41,11 @@
     outline: none;
     color: aliceblue;
     font-size: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.chat__input:focus {
+    outline: #FF9900 solid;
 }
 .chat__button{
     border: none;
