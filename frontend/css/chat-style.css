@@ -60,6 +60,13 @@
 .chat__button:hover{
     color: #FF9900;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
 /* Message style */
 .chat__messages > div {
@@ -70,6 +77,8 @@
     font-weight: 500;
     margin-bottom: 15px;
     line-height: 22px;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 .message__self {
     background-color: #FF9900;
@@ -91,9 +100,11 @@
 .message__hour {
     display: block;
     font-size: 11px;
+    font-weight: 300;
     text-align: end;
     padding: 0px;
-    margin: 0px;
+    margin: 0;
+    line-height: 1;
 }
 
 /* Scrollbar style */
