@@ -9,12 +9,131 @@
     <link rel="stylesheet" href="./css/index-style.css">
     <link rel="stylesheet" href="./css/login-style.css">
     <link rel="stylesheet" href="./css/chat-style.css">
+    <link rel="stylesheet" href="./css/crytocurrency-style.css">
     <title>Crypto Chat</title>
 </head>
 <body>
     <div class="content">
-        <div id="Cryptocurrency">
-            Current Cryptocurrency Prices 
+        <div id="Assets">
+            <section class="crytocurrency">
+                <section class="crytocurrency__description">
+                    <h1>Cryptocurrency Prices</h1>
+                    <p>Follow the prices of the 3 largest cryptocurrencies by market capitalization at the moment.</p>
+                </section>
+                <section class="crytocurrency__container">
+                    <table>
+                        <tr class="crytocurrency_table__title">
+                            <td>Coin</td>
+                            <td>Price</td>
+                            <td>Market Cap</td>
+                        </tr>
+                        <tr class="crytocurrency__tr">
+                            <td class="title">
+                                <img src="https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400" alt="Bitcoin" class="crytocurrency__logo">
+                                <div class="crytocurrency__coin">
+                                    <span class="crytocurrency__name">Bitcoin</span>
+                                    <span class="crytocurrency__symbol">BTC</span>
+                                </div>
+                            </td>
+                            <td class="price">$67,632.89</td>
+                            <td class="marketcap">$1,337,259,151,921</td>
+                        </tr>
+                        <tr class="crytocurrency__tr">
+                            <td class="title">
+                                <img src="https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400" alt="Bitcoin" class="crytocurrency__logo">
+                                <div class="crytocurrency__coin">
+                                    <span class="crytocurrency__name">Bitcoin</span>
+                                    <span class="crytocurrency__symbol">BTC</span>
+                                </div>
+                            </td>
+                            <td class="price">$67,632.89</td>
+                            <td class="marketcap">$1,337,259,151,921</td>
+                        </tr>
+                        <tr class="crytocurrency__tr">
+                            <td class="title">
+                                <img src="https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400" alt="Bitcoin" class="crytocurrency__logo">
+                                <div class="crytocurrency__coin">
+                                    <span class="crytocurrency__name">Bitcoin</span>
+                                    <span class="crytocurrency__symbol">BTC</span>
+                                </div>
+                            </td>
+                            <td class="price">$67,632.89</td>
+                            <td class="marketcap">$1,337,259,151,921</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+
+            <section class="fiat">
+                <section class="fiat__description">
+                    <div class="fiat__h1">
+                        <h1>Fiat Currency Prices</h1>
+                        <svg class="fiat__base"><use xlink:href="./images/flags.svg#icon-brazil"></use></svg>
+                    </div>
+                    <p>Track the prices of some important fiat currencies, with the Brazilian real used as the base for calculations.</p>
+                </section>
+                <section class="fiat__container">
+                    <table>
+                        <tr class="fiat_table__title">
+                            <td>Coin</td>
+                            <td>Price</td>
+                            <td>Country</td>
+                        </tr>
+                        <tr class="fiat__tr USD">
+                            <td class="coin">
+                                <div class="fiat__coin">
+                                    <span class="fiat__name">Dollar</span>
+                                    <span class="fiat__symbol">USD</span>
+                                </div>
+                            </td>
+                            <td class="price">$ 5.67</td>
+                            <td class="title">
+                                <svg class="fiat__flag"><use xlink:href="./images/flags.svg#icon-usa"></use></svg>
+                                <span class="fiat__country">USA</span>
+                            </td>
+                        </tr>
+                        <tr class="fiat__tr EUR">
+                            <td class="coin">
+                                <div class="fiat__coin">
+                                    <span class="fiat__name">Euro</span>
+                                    <span class="fiat__symbol">EUR</span>
+                                </div>
+                            </td>
+                            <td class="price">$ 6.13</td>
+                            <td class="title">
+                                <svg class="fiat__flag"><use xlink:href="./images/flags.svg#icon-europe"></use></svg>
+                                <span class="fiat__country">Europe</span>
+                            </td>
+                        </tr>
+                        <tr class="fiat__tr JPY">
+                            <td class="coin">
+                                <div class="fiat__coin">
+                                    <span class="fiat__name">Iene</span>
+                                    <span class="fiat__symbol">JPY</span>
+                                </div>
+                            </td>
+                            <td class="price">$ 0,037</td>
+                            <td class="title">
+                                <svg class="fiat__flag"><use xlink:href="./images/flags.svg#icon-japan"></use></svg>
+                                <span class="fiat__country">Japan</span>
+                            </td>
+                        </tr>
+                        <tr class="fiat__tr CNY">
+                            <td class="coin">
+                                <div class="fiat__coin">
+                                    <span class="fiat__name">Yuan</span>
+                                    <span class="fiat__symbol">CNY</span>
+                                </div>
+                            </td>
+                            <td class="price">$ 0,80</td>
+                            <td class="title">
+                                <svg class="fiat__flag"><use xlink:href="./images/flags.svg#icon-china"></use></svg>
+                                <span class="fiat__country">China</span>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
         </div>
 
         <div id="Chat">

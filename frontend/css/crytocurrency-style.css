@@ -1,0 +1,205 @@
+/* Assets style */
+#Assets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Crypto style */
+.crytocurrency{
+    width: 100%;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Description style */
+.crytocurrency__description{
+    color: #FF9900;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.crytocurrency__description > h1{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Table style */
+.crytocurrency__container{
+    width: 100%;
+    margin: 0 auto;
+}
+.crytocurrency__container > table{
+    width: 95%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Table Header */
+.crytocurrency_table__title{
+    background-color: rgb(0, 0, 0);
+    color: #FF9900;
+    text-align: left;
+    font-weight: 600;
+}
+.crytocurrency_table__title td{
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.crytocurrency_table__title td:first-child{
+    border-top-left-radius: 10px;
+}
+.crytocurrency_table__title td:last-child{
+    border-top-right-radius: 10px;
+}
+.crytocurrency__tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.crytocurrency__tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+
+/* Table Content */
+.crytocurrency__tr td{
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(34, 29, 29);
+    color: rgb(189, 169, 149);
+    font-weight: 500;
+}
+.marketcap{
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.crytocurrency__logo{
+    width: 24px;
+    margin-right: 5px;
+}
+.crytocurrency__coin {
+    display: flex;
+}
+.crytocurrency__coin span{
+    margin-right: 2px;
+}
+.crytocurrency__name{
+    font-weight: 600;
+}
+.crytocurrency__symbol{
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+/* Fiat style */
+.fiat{
+    width: 100%;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Description style */
+.fiat__description{
+    color: #FF9900;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.fiat__h1{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    align-items: center;
+}
+.fiat__base{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+/* Table style */
+.fiat__container{
+    width: 100%;
+    margin: 0 auto;
+}
+.fiat__container > table{
+    width: 95%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Table Header */
+.fiat_table__title{
+    background-color: rgb(0, 0, 0);
+    color: #FF9900;
+    text-align: left;
+    font-weight: 600;
+}
+.fiat_table__title td{
+    width: 33.33%;
+    padding: 10px;
+}
+.fiat_table__title td:first-child{
+    border-top-left-radius: 10px;
+}
+.fiat_table__title td:last-child{
+    border-top-right-radius: 10px;
+}
+.fiat__tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.fiat__tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+/* Table Content */
+.fiat__tr td{
+    padding: 10px;
+    background-color: #FF9900;
+    font-weight: 500;
+    background-color: rgb(34, 29, 29);
+    color: rgb(189, 169, 149);
+}
+.fiat__country{
+    font-weight: 600;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.fiat__flag{
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+.fiat__coin {
+    display: flex;
+}
+.fiat__coin span{
+    margin-right: 2px;
+}
+.fiat__name{
+    font-weight: 600;
+}
+.fiat__symbol{
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
