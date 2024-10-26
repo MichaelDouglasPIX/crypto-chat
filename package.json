@@ -8,9 +8,9 @@
     "start": "node server/server.js",
     "dev": "node --watch backend/socket.js"
   },
-  "author": "",
+  "author": "Michael Douglas",
   "license": "ISC",
-  "description": "",
+  "description": "In this project, you will be able to track the real-time prices of major currencies and chat with people who share the same interests in the crypto world.",
   "dependencies": {
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
