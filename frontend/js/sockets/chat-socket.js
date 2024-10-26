@@ -1,4 +1,7 @@
-import { processMessage } from '../event-handlers/chat-handler.js';
+import {
+  connectedToChat,
+  processMessage
+} from '../event-handlers/chat-handler.js';
 import socket from '../utils/socket-connection.js';
 
 const user = { id: '', name: '', color: '' };
@@ -23,6 +26,10 @@ function sendMessage(message) {
 
 socket.on('process_message', (data) => {
   processMessage(data, user);
+});
+
+socket.on('connected_to_chat', (name) => {
+  connectedToChat(name);
 });
 
 export { startConnection, sendMessage };

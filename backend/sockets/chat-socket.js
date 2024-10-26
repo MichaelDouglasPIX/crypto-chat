@@ -1,7 +1,7 @@
 function chatEvents(socket, io) {
   socket.on('new_user_in_chat', (user) => {
     console.log('new_user_in_chat', user);
-    //socket.emit('process_message', `new user ${user.name}`);
+    io.emit('connected_to_chat', user.name);
   });
 
   socket.on('send_message_to_server', (data) => {

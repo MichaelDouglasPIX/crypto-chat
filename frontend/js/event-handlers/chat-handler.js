@@ -9,6 +9,13 @@ function chatHandler() {
   chatForm.addEventListener('submit', getMessage);
 }
 
+function connectedToChat(name) {
+  const div = document.createElement('div');
+  div.classList.add('connected_to_chat');
+  div.innerHTML = `${name} se conectou no chat!`;
+  chatMessages.appendChild(div);
+}
+
 function getMessage(event) {
   event.preventDefault();
   sendMessage(chatInput.value);
@@ -63,4 +70,4 @@ function scrollScreen() {
   chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
-export { chatHandler, processMessage };
+export { chatHandler, processMessage, connectedToChat };
