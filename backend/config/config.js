@@ -1,7 +1,6 @@
 const config = {
   coingecko: {
     url: process.env.COINGECKO_URL,
-    key: process.env.COINGECKO_API_KEY,
     coinIds: 'bitcoin,ethereum,binancecoin,solana'
   },
   openExchengeRates: {
