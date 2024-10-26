@@ -26,7 +26,7 @@
   </div>
   <div style="margin: 10px; text-align: center;">
     <a href="https://socket.io/docs/v4/" target="_blank" >
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" alt="Socket.io" style="width: 40px;border-radius:12px;background-color:rgb(36, 41, 56);padding: 5px;"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" alt="Socket.io" style="width: 40px;border-radius:12px;background-color:rgb(36, 41, 56);padding: 5px;box-sizing:border-box;"/>
     </a>
     <p>Socket.io</p>
   </div>
