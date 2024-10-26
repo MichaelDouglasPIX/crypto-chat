@@ -21,6 +21,22 @@
     <td style="border:none"><a href="https://nodejs.org/en" target="_blank">Node.js</a></td>
   </tr>
   <tr>
+  <td>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+      <img src="https://skillicons.dev/icons?i=html" alt="HTML"/>
+    </a>
+  </td>
+  <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></td>
+</tr>
+<tr>
+  <td>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+      <img src="https://skillicons.dev/icons?i=css" alt="CSS"/>
+    </a>
+  </td>
+  <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></td>
+</tr>
+  <tr>
     <td>
       <a href="https://expressjs.com/pt-br/" target="_blank">
         <img src="https://skillicons.dev/icons?i=express" alt="Express"/>
