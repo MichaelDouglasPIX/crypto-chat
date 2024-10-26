@@ -22,10 +22,8 @@ const colors = [
 ];
 
 function randomColors() {
-  console.log('entrou no color');
   const randomIndex = Math.floor(Math.random() * colors.length);
   const color = colors[randomIndex];
-  console.log(`Index: ${randomIndex} color: ${color}`);
   return color;
 }
 

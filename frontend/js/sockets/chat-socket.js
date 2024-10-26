@@ -1,7 +1,5 @@
 import { processMessage } from '../event-handlers/chat-handler.js';
-
-// eslint-disable-next-line no-undef
-const socket = io();
+import socket from '../utils/socket-connection.js';
 
 const user = { id: '', name: '', color: '' };
 

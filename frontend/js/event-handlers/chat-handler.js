@@ -16,36 +16,46 @@ function getMessage(event) {
 }
 
 function processMessage(data, user) {
-  const { content, userName, userColor, userId } = data;
+  const { content, userName, userColor, userId, hour } = data;
   const message =
     userId == user.id
-      ? createMessageSelfElement(content)
-      : createMessageOtherElement(content, userName, userColor);
+      ? createMessageSelfElement(content, hour)
+      : createMessageOtherElement(content, userName, userColor, hour);
 
   chatMessages.appendChild(message);
   scrollScreen();
 }
 
-function createMessageSelfElement(content) {
+function createMessageSelfElement(content, hour) {
   const div = document.createElement('div');
-  div.classList.add('message__self');
-  div.innerHTML = content;
+  const spanHour = document.createElement('span');
 
+  div.classList.add('message__self');
+  spanHour.classList.add('message__hour');
+
+  div.innerHTML = content;
+  spanHour.innerHTML = hour;
+
+  div.appendChild(spanHour);
   return div;
 }
 
-function createMessageOtherElement(content, sender, senderColor) {
+function createMessageOtherElement(content, sender, senderColor, hour) {
   const div = document.createElement('div');
   const span = document.createElement('span');
+  const spanHour = document.createElement('span');
 
   div.classList.add('message__other');
   span.classList.add('message__sender');
+  spanHour.classList.add('message__hour');
   span.style.color = senderColor;
 
   div.appendChild(span);
 
   span.innerHTML = sender;
+  spanHour.innerHTML = hour;
   div.innerHTML += content;
+  div.appendChild(spanHour);
   return div;
 }
 

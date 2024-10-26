@@ -92,12 +92,13 @@
     display: flex;
 }
 .crytocurrency__coin span{
-    margin-right: 2px;
+    margin-right: 3px;
 }
 .crytocurrency__name{
     font-weight: 600;
 }
 .crytocurrency__symbol{
+    text-transform: uppercase;
     font-weight: 500;
     color: rgb(70, 70, 70);
 }
@@ -202,4 +203,12 @@
 .fiat__symbol{
     font-weight: 500;
     color: rgb(70, 70, 70);
+}
+
+/* Currency Fluctuation Content */
+.price.increased{
+    color: green;
+}
+.price.decreased{
+    color: red;
 }
