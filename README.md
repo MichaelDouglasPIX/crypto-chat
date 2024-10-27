@@ -64,7 +64,7 @@
 The project uses two APIs to obtain the current exchange rate, you can create a free account on the page of both APIs:
 
 - [CoinGecko](https://docs.coingecko.com/reference/introduction): The CoinGecko API is necessary to obtain information about crypto assets.
-- [ExchangeRate-API](https://nodejs.org/en): The ExchangeRate-API is required to obtain information about fiat currencies.
+- [ExchangeRate-API](https://www.exchangerate-api.com/docs/overview): The ExchangeRate-API is required to obtain information about fiat currencies.
 
 [!IMPORTANT] Rename the .env_example into .env and change the EXCHANGE_RATE_KEY field.
 
