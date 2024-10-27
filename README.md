@@ -11,38 +11,48 @@
 
 ## Technologies
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <div style="margin: 10px; text-align: center;">
-    <a href="https://nodejs.org/en" target="_blank">
-      <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" style="width: 50px;"/>
-    </a>
-    <p>Node.js</p>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <a href="https://expressjs.com/pt-br/" target="_blank">
-      <img src="https://skillicons.dev/icons?i=express" alt="Express" style="width: 50px;"/>
-    </a>
-    <p>Express</p>
-  </div>
-  <div style="margin: 10px; text-align: center;">
-    <a href="https://socket.io/docs/v4/" target="_blank" >
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" alt="Socket.io" style="width: 40px;border-radius:12px;background-color:rgb(36, 41, 56);padding: 5px;box-sizing:border-box;"/>
-    </a>
-    <p>Socket.io</p>
-  </div>
-  <div style="margin: 10px; text-align: center;">
+<table border="0">
+  <tr>
+    <td>
+      <a href="https://nodejs.org/en" target="_blank">
+        <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/>
+      </a>
+    </td>
+    <td style="border:none"><a href="https://nodejs.org/en" target="_blank">Node.js</a></td>
+  </tr>
+  <tr>
+  <td>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-      <img src="https://skillicons.dev/icons?i=html" alt="HTML" style="width: 50px;"/>
+      <img src="https://skillicons.dev/icons?i=html" alt="HTML"/>
     </a>
-    <p>HTML</p>
-  </div>
-  <div style="margin: 10px; text-align: center;">
+  </td>
+  <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></td>
+</tr>
+<tr>
+  <td>
     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-      <img src="https://skillicons.dev/icons?i=css" alt="CSS" style="width: 50px;"/>
+      <img src="https://skillicons.dev/icons?i=css" alt="CSS"/>
     </a>
-    <p>CSS</p>
-  </div>
-</div>
+  </td>
+  <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></td>
+</tr>
+  <tr>
+    <td>
+      <a href="https://expressjs.com/pt-br/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=express" alt="Express"/>
+      </a>
+    </td>
+    <td><a href="https://expressjs.com/pt-br/" target="_blank">Express</a></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://socket.io/docs/v4/" target="_blank"  style="width:47px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" alt="socketio " style="border-radius:10px;background-color:rgb(36, 41, 56);padding: 5px;"/>
+      </a>
+    </td>
+    <td><a href="https://socket.io/docs/v4/" target="_blank">Socket.io</a></td>
+  </tr>
+</table>
 
 ## Prerequisites
 
