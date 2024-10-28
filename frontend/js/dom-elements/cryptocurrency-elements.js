@@ -1,8 +1,8 @@
-const crytocurrencyContainer = document.querySelector(
-  '.crytocurrency__container'
+const cryptocurrencyContainer = document.querySelector(
+  '.cryptocurrency__container'
 );
-const crytocurrencyTable = crytocurrencyContainer.querySelector(
-  '.crytocurrency__table'
+const cryptocurrencyTable = cryptocurrencyContainer.querySelector(
+  '.cryptocurrency__table'
 );
 
-export { crytocurrencyContainer, crytocurrencyTable };
+export { cryptocurrencyContainer, cryptocurrencyTable };

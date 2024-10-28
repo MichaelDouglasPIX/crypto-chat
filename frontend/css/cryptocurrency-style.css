@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 /* Crypto style */
-.crytocurrency{
+.cryptocurrency{
     width: 100%;
     display: flex;
     line-height: 22px;
@@ -15,25 +15,25 @@
 }
 
 /* Description style */
-.crytocurrency__description{
+.cryptocurrency__description{
     color: #FF9900;
     margin: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.crytocurrency__description > h1{
+.cryptocurrency__description > h1{
     margin-bottom: 15px;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 /* Table style */
-.crytocurrency__container{
+.cryptocurrency__container{
     width: 100%;
     margin: 0 auto;
 }
-.crytocurrency__container > table{
+.cryptocurrency__container > table{
     width: 95%;
     table-layout: fixed;
     border-collapse: collapse;
@@ -47,32 +47,32 @@
 }
 
 /* Table Header */
-.crytocurrency_table__title{
+.cryptocurrency_table__title{
     background-color: rgb(0, 0, 0);
     color: #FF9900;
     text-align: left;
     font-weight: 600;
 }
-.crytocurrency_table__title td{
+.cryptocurrency_table__title td{
     width: 33.33%;
     padding: 10px;
     box-sizing: border-box;
 }
-.crytocurrency_table__title td:first-child{
+.cryptocurrency_table__title td:first-child{
     border-top-left-radius: 10px;
 }
-.crytocurrency_table__title td:last-child{
+.cryptocurrency_table__title td:last-child{
     border-top-right-radius: 10px;
 }
-.crytocurrency__tr:last-child td:first-child {
+.cryptocurrency__tr:last-child td:first-child {
     border-bottom-left-radius: 10px;
 }
-.crytocurrency__tr:last-child td:last-child{
+.cryptocurrency__tr:last-child td:last-child{
     border-bottom-right-radius: 10px;
 }
 
 /* Table Content */
-.crytocurrency__tr td{
+.cryptocurrency__tr td{
     box-sizing: border-box;
     align-items: center;
     padding: 10px 0px 10px 10px;
@@ -84,20 +84,20 @@
     word-break: break-word;
     overflow-wrap: break-word;
 }
-.crytocurrency__logo{
+.cryptocurrency__logo{
     width: 24px;
     margin-right: 5px;
 }
-.crytocurrency__coin {
+.cryptocurrency__coin {
     display: flex;
 }
-.crytocurrency__coin span{
+.cryptocurrency__coin span{
     margin-right: 3px;
 }
-.crytocurrency__name{
+.cryptocurrency__name{
     font-weight: 600;
 }
-.crytocurrency__symbol{
+.cryptocurrency__symbol{
     text-transform: uppercase;
     font-weight: 500;
     color: rgb(70, 70, 70);
@@ -126,6 +126,11 @@
     font-weight: 600;
     align-items: center;
 }
+.fiat__h1 > h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .fiat__base{
     width: 32px;
     height: 32px;
@@ -214,7 +219,7 @@
 }
 
 @media (max-width: 768px) {
-    .crytocurrency__tr {
+    .cryptocurrency__tr {
         font-size: 0.9rem;
     }
     .fiat__tr{

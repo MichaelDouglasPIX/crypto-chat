@@ -1,4 +1,4 @@
-import { crytocurrencyTable } from '../dom-elements/cryptocurrency-elements.js';
+import { cryptocurrencyTable } from '../dom-elements/cryptocurrency-elements.js';
 import '../sockets/assets-socket.js';
 import formatValues from '../utils/formatValues.js';
 
@@ -8,13 +8,13 @@ function processCryptocurrencyPrices(data) {
 
 function createCryptoCurrencies(data) {
   data.forEach((data) => {
-    let row = document.querySelector(`tr.crytocurrency__tr.${data.id}`);
+    let row = document.querySelector(`tr.cryptocurrency__tr.${data.id}`);
 
     if (row) {
       updateCryptoTableRow(row, data);
     } else {
       const rowElement = createTableRow(data);
-      crytocurrencyTable.appendChild(rowElement);
+      cryptocurrencyTable.appendChild(rowElement);
     }
   });
 }
@@ -50,14 +50,14 @@ function createTableRow(data) {
   const spanName = document.createElement('span');
   const spanSymbol = document.createElement('span');
 
-  tr.classList.add('crytocurrency__tr', id);
+  tr.classList.add('cryptocurrency__tr', id);
   tdTitle.classList.add('title');
   tdPrice.classList.add('price');
   tdMarketcap.classList.add('marketcap');
-  imgLogo.classList.add('crytocurrency__logo');
-  divCoin.classList.add('crytocurrency__coin');
-  spanName.classList.add('crytocurrency__name');
-  spanSymbol.classList.add('crytocurrency__symbol');
+  imgLogo.classList.add('cryptocurrency__logo');
+  divCoin.classList.add('cryptocurrency__coin');
+  spanName.classList.add('cryptocurrency__name');
+  spanSymbol.classList.add('cryptocurrency__symbol');
 
   spanName.innerHTML = name;
   spanSymbol.innerHTML = symbol;
